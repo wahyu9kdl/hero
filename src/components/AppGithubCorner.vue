@@ -32,7 +32,7 @@ export default {
     },
     link: {
       type: String,
-      default: `https://github.com/sdras/hero-generator`
+      default: `https://github.com/wahyu9kdl/hero`
     }
   }
 };
