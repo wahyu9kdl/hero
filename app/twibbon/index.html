@@ -1,0 +1,225 @@
+<!--
+	"Hero Refresh"
+	Original utility by:
+	https://wahyu9kdl.github.io
+	https://www.alhikmah.my.id / https://admin.alhikmah.my.id
+	https://www.awdev.eu.org / https://devoloper.awdev.eu.org/devoloper.html
+
+	This is the 2nd revision of the modified version by:
+	https://wahyu9kdl.medium.com
+	
+	
+	Related Plugin : 
+	https://bit.ly/39S49Ue
+	https://bit.ly/37Nuan1
+	https://bit.ly/3weJFOn
+	https://bit.ly/37Nuan1
+	https://t.co/HZJoHOSpHC
+	https://t.co/I0zjdhpTmJ
+	https://t.co/3Gd87uMiGL
+	https://bit.ly/3FTl2dh
+	https://bit.ly/3NgDUW7
+	https://bit.ly/3FTl2dh
+	https://bit.ly/3MpQuCr
+	https://bit.ly/3LoauUq
+	
+	
+-->
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="layout.css">
+    <!-- <link rel="stylesheet" href="test4.css"> -->
+    <link rel="stylesheet" href="material.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="fabric.min.js"></script>
+    <script src="FileSaver.js"></script>
+    <script src="canvas-toBlob.js"></script>
+    <script src="material.min.js"></script>
+    <link rel="shortcut icon" href="">
+    <title>IYF</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="wrapper">
+            <div class="editor">
+                <div class="canvas-padding">
+                    <canvas id="c"></canvas>
+                </div>
+                <div class="tombol">                        
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--file">
+                        <input class="mdl-textfield__input" placeholder="Unggah foto mu!" type="text" id="uploadFile" readonly/>
+                        <div class="mdl-button mdl-button--primary mdl-button--icon mdl-button--file">
+                            <i class="material-icons">attach_file</i><input type="file" id="uploadBtn">
+                        </div>
+                    </div>
+                   
+                    <br>
+                    <button id="download" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">unduh</button>   
+                    
+                </div>
+            </div>
+            
+            <div class="control">
+                <h3 class="headline">IYF VI</h1>
+                    
+                    <h4>Ayo buat foto IYF mu!</h3>
+                        <p>
+                            Unggah foto                  
+                        </p>
+                        <!-- <input type="file" id="d"> -->
+                        <h4>Tentang IYF</h3>
+                            <p>
+                                    Informatics Youth Festival (IYF) adalah agenda tahunan jurusan Teknik Informatika UIN Sultan Syarif Kasim Riau.
+                            </p>
+                        </div>
+                        
+                                <script>
+                                    document.getElementById("uploadBtn").onchange = function () {
+                                        document.getElementById("uploadFile").value = this.files[0].name;
+                                    };
+                                    var canvas = new fabric.Canvas('c');
+                                    canvas.setWidth(1080);
+                                    canvas.setHeight(1350);
+                                    
+                                    var canvasWrapper = document.getElementById('c');
+                                    var canvasWrapperWidth = canvasWrapper.clientWidth;
+                                    $(function () {
+                                        $(":file").change(function () {
+                                            if (this.files && this.files[0]) {
+                                                var reader = new FileReader();
+                                                reader.onload = imageIsLoaded;
+                                                reader.readAsDataURL(this.files[0]);
+                                            }
+                                        });
+                                    });
+                                    fabric.Image.fromURL('twibbon iyf empty.png',function(img){
+                                        img.scaleToWidth(canvas.getWidth());
+                                        canvas.setOverlayImage(img, canvas.renderAll.bind(canvas));
+                                    });
+                                    function imageIsLoaded(e) {
+                                        fabric.Image.fromURL(e.target.result,function(img){
+                                            var aspectRatio = 1350/1080;
+                                            var factor = 1080 / img.width;
+                                            img.set({
+                                                scaleX: factor,
+                                                scaleY: factor 
+                                            });
+                                                                                        canvas.add(img);
+                                            canvas.item(0).set({
+                                                borderColor: 'gray',
+                                                cornerColor: 'black',
+                                                cornerSize: 70,
+                                                borderScaleFactor: 10,
+                                                hasBorders: true,
+                                                
+                                                rotatingPointOffset:200,
+                                                padding:60, 
+                                                transparentCorners: true
+                                            });
+                                            canvas.setActiveObject(canvas.item(0));
+                                            this.__canvases.push(canvas);
+                                            canvas.sendToBack(img);
+                                        });
+                                    };
+                                    $("#download").click(function(){
+                                        $("#c").get(0).toBlob(function(blob){
+                                            saveAs(blob, "myIMG.png");
+                                        });
+                                    });
+                                </script>
+                                <!-- Sponsored -->
+                                
+                                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5295583488737876"
+                                crossorigin="anonymous"></script>
+                                <ins class="adsbygoogle"
+                                style="display:block"
+                                data-ad-format="fluid"
+                                data-ad-layout-key="+39+qh+4e-5w+3b"
+                                data-ad-client="ca-pub-5295583488737876"
+                                data-ad-slot="9633191715"></ins>
+                                <script>
+                                (adsbygoogle = window.adsbygoogle || []).push({});
+                                </script>
+                                <amp-ad width="100vw" height="320"
+                                type="adsense"
+                                data-ad-client="ca-pub-5295583488737876"
+                                data-ad-slot="1819124764"
+                                data-auto-format="mcrspv"
+                                data-full-width="">
+                                <div overflow=""></div>
+                                </amp-ad>
+                                
+                                <!--And Sponsored -->
+                                
+                                <!-- Footer -->
+                                <center>
+                                <footer class="pt-3 mt-4">
+                                <div class="container py-4 border-top d-lg-flex justify-content-between">
+                                <p class="text-muted">
+                                <span class="mx-1"><script>document.write(new Date().getFullYear())</script><noscript>2021</noscript></span>
+                                <a href="https://wahyu9kdl.github.io/hero/app/refresh/" class="text-muted text-decoration-none">Hero Refresh - Free App Tools Online Auto Refresh Link Url Website Responsive</a>.
+                                </p>
+                                <p>
+                                <a href="https://wahyu9kdl.github.io" class="text-muted text-decoration-none" target="_blank">
+                                My Projects - Free Oppen Score Desain
+                                </a>
+                                
+                                <h3 ><span class="mx-2 text-muted">REALATED POST:</span></h3>
+                                
+                                <a href="https://bit.ly/39S49Ue" class="text-muted text-decoration-none" target="_blank"> REALATED POST 1 </a>
+                                <a href="https://bit.ly/37Nuan1" class="text-muted text-decoration-none" target="_blank"> REALATED POST 2  </a>
+                                <a href="https://bit.ly/3weJFOn" class="text-muted text-decoration-none" target="_blank"> REALATED POST 3 </a>
+                                <a href="https://t.co/HZJoHOSpHC" class="text-muted text-decoration-none" target="_blank"> REALATED POST 4  </a>
+                                <a href="https://t.co/I0zjdhpTmJ" class="text-muted text-decoration-none" target="_blank"> REALATED POST 5  </a>
+                                <a href="https://t.co/3Gd87uMiGL" class="text-muted text-decoration-none" target="_blank"> REALATED POST 6  </a>
+                                
+                                
+                                <span class="mx-2 text-muted">|</span>
+                                <a href="https://wahyu9kdl.github.io/hero" class="text-muted text-decoration-none" target="_blank">
+                                UI Desain ©️ 2022 hero
+                                </a>
+                                <a href="#" class="mx-2 text-muted text-decoration-none">&uarr; Top</a>
+                                </p>
+                                </div>
+                                </footer></center>
+                                <center>
+                                <div class="a2a_kit a2a_kit_size_32 a2a_default_style a2a_follow">
+                                <a class="a2a_button_twitter" data-a2a-follow="Awfanspage"></a>
+                                <a class="a2a_button_facebook" data-a2a-follow="Awgroupchannel"></a>
+                                <a class="a2a_button_instagram" data-a2a-follow="Awfanspage"></a>
+                                <a class="a2a_button_pinterest" data-a2a-follow="AwPinterst/hikmah/"></a>
+                                <a class="a2a_button_linkedin_company" data-a2a-follow="ahmad-wahyudi-41b6841b6"></a>
+                                <a class="a2a_button_youtube_channel" data-a2a-follow="UC7CRa3nkxakAZx_aRsMwRyA"></a>
+                                <a class="a2a_button_github" data-a2a-follow="wahyu9kdl"></a>
+                                <a class="a2a_button_medium" data-a2a-follow="wahyu9kdl"></a>
+                                <a class="a2a_button_blogger" data-a2a-follow="blogID=392213471435482065"></a>
+                                <a class="a2a_button_codepen.io" data-a2a-follow="blogID=392213471435482065"></a>
+                                
+                                </div> 
+                                <script async src="https://static.addtoany.com/menu/page.js"></script>
+                                </center>
+                                
+                                <script async src="https://static.addtoany.com/menu/page.js"></script>		
+                                <div class="a2a_kit a2a_kit_size_32 a2a_floating_style a2a_vertical_style" style="left:0px; top:150px;">
+                                <a class="a2a_button_twitter" data-a2a-follow="Awfanspage"></a>
+                                <a class="a2a_button_facebook" data-a2a-follow="Awgroupchannel"></a>
+                                <a class="a2a_button_email" ></a>
+                                <a class="a2a_button_pinterest" data-a2a-follow="AwPinterst/hikmah/"></a>    
+                                <a class="a2a_button_blogger" ></a>
+                                <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+                                </div>
+                                
+                                </footer>
+                            </body>
+                            </html>
