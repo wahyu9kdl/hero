@@ -1,5 +1,6 @@
 # HERO 
 
+[![pages-build-deployment](https://github.com/wahyu9kdl/hero/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/wahyu9kdl/hero/actions/workflows/pages/pages-build-deployment)
 
 → ***[Get Started](https://wahyu9kdl.github.io)***
 
