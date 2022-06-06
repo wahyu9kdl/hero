@@ -8,7 +8,7 @@
 
 → ***[Hero Started](https://wahyu9kdl.github.io/hero/public/index.html)***
 
-→ ***[Hero APP character counter Started](https://wahyu9kdl.github.io/hero/hero/app/counter/character.html)***
+→ ***[Hero APP Character Counter Tools](https://wahyu9kdl.github.io/hero/app/counter/character.html)***
 
 → ***[Hero Auto Refresh Website](https://wahyu9kdl.github.io/hero/app/refresh)***
 
