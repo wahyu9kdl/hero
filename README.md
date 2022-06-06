@@ -2,9 +2,25 @@
 
 [![pages-build-deployment](https://github.com/wahyu9kdl/hero/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/wahyu9kdl/hero/actions/workflows/pages/pages-build-deployment)
 
-→ ***[Get Started](https://wahyu9kdl.github.io)***
+→ ***[Web Dew](https://wahyu9kdl.github.io)***
 
 → ***[Hero](https://wahyu9kdl.github.io/hero)***
+
+→ ***[Hero Started](https://wahyu9kdl.github.io/hero/public/index.html)***
+
+→ ***[Hero APP character counter Started](https://wahyu9kdl.github.io/hero/hero/app/counter/character.html)***
+
+→ ***[Hero Auto Refresh Website](https://wahyu9kdl.github.io/hero/app/refresh)***
+
+→ ***[Hero QR MASTER](https://wahyu9kdl.github.io/hero/app/qr/index.html)***
+
+→ ***[Hero APP Screenshot](https://wahyu9kdl.github.io/hero/app/screenshot/index.html)***
+
+→ ***[Hero APP Electron Screen Recorder](https://wahyu9kdl.github.io/hero/app/electron-screen-recorder/index.html)***
+
+
+
+
 
 _Made with 🌮 by [Awdev](https://twitter.com/Awfanspage), deploys on [Netlify](https://www.netlify.com/?utm_source=proj&amp;utm_medium=hero-sd&amp;utm_campaign=awdev)_
 
@@ -54,23 +70,23 @@ Open source software is software with source code that anyone can inspect, modif
 ## Features
 
 
-| NAME                   | Link/Url Repo                                       | Eg. gh Page                                  |
-|:----------             |:----------------------------                        |:---------------------------------------------|
-| hero                   | https://github.com/wahyu9kdl/hero                   | https://wahyu9kdl.github.io/hero             |
-| application            | https://github.com/wahyu9kdl/application            | https://wahyu9kdl.github.io/application      |
-| wahyu9kdl              | https://github.com/wahyu9kdl/wahyu9kdl              | https://wahyu9kdl.github.io/wahyu9kdl        |
-| wahyu9kdl.github.io    | https://github.com/wahyu9kdl/wahyu9kdl.github.io    | https://wahyu9kdl.github.io/                 |
-| AWDEV                  | https://github.com/wahyu9kdl/AWDEV                  | https://wahyu9kdl.github.io/AWDEV            |
-| AL-HIKMAH              | https://github.com/wahyu9kdl/AL-HIKMAH              | https://wahyu9kdl.github.io/AL-HIKMAH        |
-| quran-digital          | https://github.com/wahyu9kdl/quran-digital          | https://wahyu9kdl.github.io/quran-digita     |
-| DEVOLOPER              | https://github.com/wahyu9kdl/DEVOLOPER              | https://wahyu9kdl.github.io/DEVOLOPER        |
-| creative               | https://github.com/wahyu9kdl/creative               | https://wahyu9kdl.github.io/creative         |
-| animation              | https://github.com/wahyu9kdl/animation              | https://wahyu9kdl.github.io/animation        |
-| link                   | https://github.com/wahyu9kdl/link                   | https://wahyu9kdl.github.io/link             |
-| link-lock              | https://github.com/wahyu9kdl/link-lock              | https://wahyu9kdl.github.io/link-lock        |
-| polywonks              | https://github.com/wahyu9kdl/polywonks              | https://wahyu9kdl.github.io/polywonks        |
-| cloud-awdev            | https://github.com/wahyu9kdl/cloud-awdev            | https://wahyu9kdl.github.io/cloud-awdev      |
-
+| NAME                   | Link/Url Repo                                       | Eg. gh Page                                                                             |
+|:----------             |:----------------------------                        |:--------------------------------------------------------------------------------------- |
+| hero                   | https://github.com/wahyu9kdl/hero                   | [https://wahyu9kdl.github.io/hero](https://wahyu9kdl.github.io/hero)                    |
+| application            | https://github.com/wahyu9kdl/application            | [https://wahyu9kdl.github.io/application](https://wahyu9kdl.github.io/application)      |
+| wahyu9kdl              | https://github.com/wahyu9kdl/wahyu9kdl              | [https://wahyu9kdl.github.io/wahyu9kdl](https://wahyu9kdl.github.io/wahyu9kdl)          |
+| wahyu9kdl.github.io    | https://github.com/wahyu9kdl/wahyu9kdl.github.io    | [https://wahyu9kdl.github.io/](https://wahyu9kdl.github.io/)                            |
+| AWDEV                  | https://github.com/wahyu9kdl/AWDEV                  | [https://wahyu9kdl.github.io/AWDEV](https://wahyu9kdl.github.io/AWDEV)                  |
+| AL-HIKMAH              | https://github.com/wahyu9kdl/AL-HIKMAH              | [https://wahyu9kdl.github.io/AL-HIKMAH](https://wahyu9kdl.github.io/AL-HIKMAH)          |
+| quran-digital          | https://github.com/wahyu9kdl/quran-digital          | [https://wahyu9kdl.github.io/quran-digita](https://wahyu9kdl.github.io/quran-digita)    |
+| DEVOLOPER              | https://github.com/wahyu9kdl/DEVOLOPER              | [https://wahyu9kdl.github.io/DEVOLOPER](https://wahyu9kdl.github.io/DEVOLOPER)          |
+| creative               | https://github.com/wahyu9kdl/creative               | [https://wahyu9kdl.github.io/creative](https://wahyu9kdl.github.io/creative)            |
+| animation              | https://github.com/wahyu9kdl/animation              | [https://wahyu9kdl.github.io/animation](https://wahyu9kdl.github.io/animation)          |
+| link                   | https://github.com/wahyu9kdl/link                   | [https://wahyu9kdl.github.io/link](https://wahyu9kdl.github.io/link)                    |
+| link-lock              | https://github.com/wahyu9kdl/link-lock              | [https://wahyu9kdl.github.io/link-lock](https://wahyu9kdl.github.io/link-lock)          |
+| polywonks              | https://github.com/wahyu9kdl/polywonks              | [https://wahyu9kdl.github.io/polywonks](https://wahyu9kdl.github.io/polywonks)          |
+| cloud-awdev            | https://github.com/wahyu9kdl/cloud-awdev            | [https://wahyu9kdl.github.io/cloud-awdev](https://wahyu9kdl.github.io/cloud-awdev)      |
+| Islami                 | https://github.com/wahyu9kdl/islami                 |  | [https://wahyu9kdl.github.io/islami](https://wahyu9kdl.github.io/islami)             |
 
 # LIVE 
 
@@ -386,20 +402,24 @@ Hero is proudly supported by [wahyu9kdl to Hero](https://wahyu9kdl.github.io/her
 
 - To jump start this new program and boost community funding, we’re also launching the GitHub Sponsors Matching Fund. GitHub will match all contributions up to $5,000 during a developer’s first year in GitHub Sponsors.
 
-- Get Star Sponsoring
+- ♥️ Get Star Sponsoring 
 
-https://patreon.com/Awfanspage
-https://opencollective.com/wahyu9kdl
-https://ko-fi.com/Awfanspage
-https://paypal.me/wahyudi9kdl
-https://trakteer.id/awfanspage/tip
-https://saweria.co/AwGroupChannel
-https://www.patreon.com/join/Awfanspage
+  ○ [https://patreon.com/Awfanspage](https://patreon.com/Awfanspage)
+
+  ○ [https://opencollective.com/wahyu9kdl](https://opencollective.com/wahyu9kdl)
+
+  ○ [https://paypal.me/wahyudi9kdl](https://paypal.me/wahyudi9kdl)
+
+  ○ [https://trakteer.id/awfanspage/tip](https://trakteer.id/awfanspage/tip)
+
+  ○ [https://saweria.co/AwGroupChannel](https://saweria.co/AwGroupChannel)
+
+  ○ [https://www.patreon.com/join/Awfanspage](https://www.patreon.com/join/Awfanspage)
 
 - Thank you very much for your Support and Contribution by Sponsoring My Project
 
 
-# License
+# ©️ License 
 
 wahyu9kdl/hero is licensed under the
 
