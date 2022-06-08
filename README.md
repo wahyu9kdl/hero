@@ -18,7 +18,7 @@
 
 → ***[Hero APP Electron Screen Recorder](https://wahyu9kdl.github.io/hero/app/electron-screen-recorder/index.html)***
 
-
+→ ***[Hero APP Ip Geo Location](https://wahyu9kdl.github.io/hero/ip/)***
 
 
 
