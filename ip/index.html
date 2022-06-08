@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+    <title>Frontend Monitor | IP Address Geo Location</title>
+    <meta name="description" content="Frontend Monitor | IP Address Geo Location - Awdev Corporation" />
+    <meta name="keywords" content="ip,geo location,addres,cari lokasi,ip website,check lokasi,awdev" />
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Leaflet CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Leaflet JS -->
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VSD8HWB5RG"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    
+    gtag('config', 'G-VSD8HWB5RG');
+    </script>
+    <script data-ad-client="ca-pub-9740800920365268" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script type="module" src="scripts/index.js"></script>
+  </head>
+  <body>
+    <header class="top-container">
+      <h1 class="main-heading">IP Address Tracker</h1>
+
+      <form class="form" novalidate>
+        <input
+          type="text"
+          class="input"
+          placeholder="Search for any IP address or domain"
+          aria-label="Type IP address or Domain name"
+        />
+        <button
+          class="submit-btn"
+          type="submit"
+          aria-label="Hit Search"
+        ></button>
+      </form>
+
+      <dl class="user-data-list">
+        <div class="user-data-item">
+          <dt class="data-term">IP Address</dt>
+          <dd class="data-value"></dd>
+        </div>
+
+        <div class="user-data-item">
+          <dt class="data-term">Location</dt>
+          <dd class="data-value"></dd>
+        </div>
+
+        <div class="user-data-item">
+          <dt class="data-term">Timezone</dt>
+          <dd class="data-value"></dd>
+        </div>
+
+        <div class="user-data-item">
+          <dt class="data-term">ISP</dt>
+          <dd class="data-value"></dd>
+        </div>
+      </dl>
+    </header>
+
+    <div id="map">
+      <h1 class="loading-text">Loading...</h1>
+    </div>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.awdev.my.id" target="_blank"
+        >Frontend Mentor Awdev Corporation</a
+      >. Created by
+      <a href="https://wahyu9kdl.github.io ">AWDEV</a>.
+    </footer>
+  </body>
+</html>
