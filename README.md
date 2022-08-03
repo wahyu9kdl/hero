@@ -20,10 +20,11 @@
 
 → ***[Hero APP Ip Geo Location](https://wahyu9kdl.github.io/hero/ip/)***
 
+<a href="https://opensea.io/AWDEV?tab=favorites" target="blank"><img  align="center" src="https://avatars.githubusercontent.com/u/34966464?s=200&v=4 " alt="Logo" height="50" width="60"/></a>
 
+[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=6d5378fa79f4&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
 
 _Made with 🌮 by [Awdev](https://twitter.com/Awfanspage), deploys on [Netlify](https://www.netlify.com/?utm_source=proj&amp;utm_medium=hero-sd&amp;utm_campaign=awdev)_
-
 
 Free AAP OPPEN SCORE CODE projects , Creative Design .
 
@@ -76,7 +77,7 @@ Open source software is software with source code that anyone can inspect, modif
 | application            | https://github.com/wahyu9kdl/application            | [https://wahyu9kdl.github.io/application](https://wahyu9kdl.github.io/application)      |
 | wahyu9kdl              | https://github.com/wahyu9kdl/wahyu9kdl              | [https://wahyu9kdl.github.io/wahyu9kdl](https://wahyu9kdl.github.io/wahyu9kdl)          |
 | wahyu9kdl.github.io    | https://github.com/wahyu9kdl/wahyu9kdl.github.io    | [https://wahyu9kdl.github.io/](https://wahyu9kdl.github.io/)                            |
-| AWDEV                  | https://github.com/wahyu9kdl/AWDEV                  | [https://wahyu9kdl.github.io/AWDEV](https://wahyu9kdl.github.io/AWDEV)                  |
+| AWDEV                  | https://github.com/wahyu9kdl/AWDEV                  | [https://wahyu9kdl.github.io/AWDEV](https://wahyu9kdl.github.io/awdev)                  |
 | AL-HIKMAH              | https://github.com/wahyu9kdl/AL-HIKMAH              | [https://wahyu9kdl.github.io/AL-HIKMAH](https://wahyu9kdl.github.io/AL-HIKMAH)          |
 | quran-digital          | https://github.com/wahyu9kdl/quran-digital          | [https://wahyu9kdl.github.io/quran-digita](https://wahyu9kdl.github.io/quran-digita)    |
 | DEVOLOPER              | https://github.com/wahyu9kdl/DEVOLOPER              | [https://wahyu9kdl.github.io/DEVOLOPER](https://wahyu9kdl.github.io/DEVOLOPER)          |
